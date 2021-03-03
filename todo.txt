@@ -1,0 +1,17 @@
+TODO:
+
+  model Newsletter
+    post foreignkey post
+    title
+    text
+
+  form NewsletterForm modelform??
+    title, text, post connected with newsletter
+
+  views
+    ! cancel sub -> template, view, 
+    send_newsletter to subs
+
+  htmls:
+    subscription_unsubscribe.html
+    subscription_form.html  # admin access, create newsletter email and send to all subs
